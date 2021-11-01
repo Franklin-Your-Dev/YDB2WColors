@@ -12,6 +12,7 @@ public enum YDColors {
   public static var brandingHighlighted: UIColor { YDColors.branding.withAlphaComponent(0.5) }
   
   public static var black: UIColor { UIColor(r: 51, g: 51, b: 51) }
+  public static var blackHighlighted: UIColor { YDColors.black.withAlphaComponent(0.5) }
   
   public static var white: UIColor { UIColor(white: 1.0, alpha: 1.0) }
   
@@ -76,6 +77,7 @@ public enum YDColors {
     public static var disabled: UIColor { UIColor(white: 232.0 / 255.0, alpha: 1.0) }
 
     public static var light: UIColor { UIColor(white: 136.0 / 255.0, alpha: 1.0) }
+    public static var lightHighlighted: UIColor { YDColors.Gray.light.withAlphaComponent(0.5) }
     
     public static var medium: UIColor { UIColor(r: 102, g: 102, b: 102) }
 
