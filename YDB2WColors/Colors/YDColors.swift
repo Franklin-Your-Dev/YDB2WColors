@@ -78,7 +78,7 @@ public enum YDColors {
 
     public static var opaque: UIColor { UIColor(white: 241.0 / 255.0, alpha: 1.0) }
 
-    public static var graySurface: UIColor { UIColor(white: 248.0 / 255.0, alpha: 1.0) }
+    public static var surface: UIColor { UIColor(white: 248.0 / 255.0, alpha: 1.0) }
   }
 }
 

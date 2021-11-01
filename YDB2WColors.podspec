@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = "YDB2WColors"
-  spec.version = "1.6.0"
+  spec.version = "1.6.1"
   spec.summary = "Live for B2W."
   spec.homepage = "https://www.yourdev.com.br"
   spec.license = "MIT"
