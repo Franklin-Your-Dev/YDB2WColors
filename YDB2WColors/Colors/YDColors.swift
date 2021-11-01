@@ -16,6 +16,7 @@ public enum YDColors {
   // MARK: Red
   public struct Red {
     public static var primary: UIColor { UIColor(r: 248, g: 0, b: 50) }
+    public static var primaryHighlighted: UIColor { YDColors.Red.primary.withAlphaComponent(0.5) }
     public static var primaryDisabled: UIColor { UIColor(r: 243.0, g: 128.0, b: 138.0) }
     
     public static var dark: UIColor { UIColor(r: 171.0, g: 0, b: 0) }
