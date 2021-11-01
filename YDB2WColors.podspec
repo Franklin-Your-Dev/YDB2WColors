@@ -18,8 +18,8 @@ Pod::Spec.new do |spec|
   spec.swift_version    = "5.0"
 
   spec.source = {
-    :git => "git@github.com:B2W-BIT/americanas-store-ios.git",
-    :tag => "#{spec.version.to_s}-live"
+    :git => "git@github.com:Hennrich-Your-Dev/YDB2WColors.git",
+    :tag => "#{spec.version.to_s}"
   }
   
   spec.source_files = "YDB2WColors/**/*.{h,m,swift}"
