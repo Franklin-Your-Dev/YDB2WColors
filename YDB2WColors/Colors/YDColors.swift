@@ -9,8 +9,12 @@ import UIKit
 
 public enum YDColors {
   public static var branding: UIColor { UIColor(r: 248, g: 0.0, b: 50.0) }
+  public static var brandingHighlighted: UIColor { YDColors.branding.withAlphaComponent(0.5) }
+  
   public static var black: UIColor { UIColor(r: 51, g: 51, b: 51) }
+  
   public static var white: UIColor { UIColor(white: 1.0, alpha: 1.0) }
+  
   public static var separator: UIColor { UIColor(white: 232.0 / 255.0, alpha: 1.0) }
   
   // MARK: Red
