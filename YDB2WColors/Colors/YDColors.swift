@@ -14,9 +14,9 @@ public enum YDColors {
   public static var black: UIColor { UIColor(r: 51, g: 51, b: 51) }
   public static var blackHighlighted: UIColor { YDColors.black.withAlphaComponent(0.5) }
   
-  public static var white: UIColor { UIColor(white: 1.0, alpha: 1.0) }
+  public static var white: UIColor { UIColor(r: 255, g: 255, b: 255) }
   
-  public static var separator: UIColor { UIColor(white: 232.0 / 255.0, alpha: 1.0) }
+//  public static var separator: UIColor { UIColor(white: 232.0 / 255.0, alpha: 1.0) }
   
   // MARK: Red
   public struct Red {
@@ -35,7 +35,7 @@ public enum YDColors {
   
   // MARK: Green
   public struct Green {
-    public static var dark: UIColor { UIColor(r: 0, g: 177, b: 1) }
+    public static var dark: UIColor { UIColor(r: 36, g: 104, b: 27) }
     
     public static var done: UIColor { UIColor(r: 7, g: 170, b: 7) }
     
@@ -45,47 +45,47 @@ public enum YDColors {
     
     public static var light: UIColor { UIColor(r: 153, g: 224, b: 2) }
     
-    public static var night: UIColor { UIColor(r: 50, g: 215, b: 75) }
+//    public static var night: UIColor { UIColor(r: 50, g: 215, b: 75) }
   }
   
   // MARK: Yellow
   public struct Yellow {
     public static var branding: UIColor { UIColor(r: 250, g: 215, b: 10) }
     
-    public static var dark: UIColor { UIColor(r: 229, g: 157, b: 14) }
+    public static var dark: UIColor { UIColor(r: 121, g: 94, b: 9) }
     
-    public static var light: UIColor { UIColor(r: 255, g: 240, b: 2) }
+    public static var light: UIColor { UIColor(r: 242, g: 200, b: 50) }
 
-    public static var night: UIColor { UIColor(r: 255, g: 214, b: 10) }
+//    public static var night: UIColor { UIColor(r: 255, g: 214, b: 10) }
 
-    public static var opaque: UIColor { UIColor(r: 255, g: 244, b: 180) }
+    public static var opaque: UIColor { UIColor(r: 251, g: 238, b: 193) }
   }
   
   // MARK: Blue
   public struct Blue {
-    public static var dark: UIColor { UIColor(r: 25, g: 160, b: 230) }
+    public static var dark: UIColor { UIColor(r: 0, g: 106, b: 140) }
     
     public static var light: UIColor { UIColor(r: 36, g: 203, b: 255) }
 
-    public static var night: UIColor { UIColor(r: 100, g: 210, b: 255) }
+//    public static var night: UIColor { UIColor(r: 100, g: 210, b: 255) }
 
     public static var opaque: UIColor { UIColor(r: 225, g: 245, b: 254) }
   }
   
   // MARK: Gray
   public struct Gray {
-    public static var disabled: UIColor { UIColor(white: 232.0 / 255.0, alpha: 1.0) }
+    public static var disabled: UIColor {  UIColor(r: 232, g: 232, b: 232) }
 
-    public static var light: UIColor { UIColor(white: 136.0 / 255.0, alpha: 1.0) }
+    public static var light: UIColor { UIColor(r: 153, g: 153, b: 153) }
     public static var lightHighlighted: UIColor { YDColors.Gray.light.withAlphaComponent(0.5) }
     
     public static var medium: UIColor { UIColor(r: 102, g: 102, b: 102) }
 
-    public static var night: UIColor { UIColor(white: 204.0 / 255.0, alpha: 1.0) }
+    public static var night: UIColor { UIColor(r: 204, g: 204, b: 204) }
 
-    public static var opaque: UIColor { UIColor(white: 241.0 / 255.0, alpha: 1.0) }
+    public static var opaque: UIColor { UIColor(r: 241, g: 241, b: 241) }
 
-    public static var surface: UIColor { UIColor(white: 248.0 / 255.0, alpha: 1.0) }
+    public static var surface: UIColor { UIColor(r: 250, g: 250, b: 250) }
   }
 }
 
