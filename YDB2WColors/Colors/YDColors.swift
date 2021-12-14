@@ -45,7 +45,6 @@ public enum YDColors {
     
     public static var light: UIColor { UIColor(r: 153, g: 224, b: 2) }
     
-//    public static var night: UIColor { UIColor(r: 50, g: 215, b: 75) }
   }
   
   // MARK: Yellow
@@ -56,8 +55,6 @@ public enum YDColors {
     
     public static var light: UIColor { UIColor(r: 242, g: 200, b: 50) }
 
-//    public static var night: UIColor { UIColor(r: 255, g: 214, b: 10) }
-
     public static var opaque: UIColor { UIColor(r: 251, g: 238, b: 193) }
   }
   
@@ -66,8 +63,6 @@ public enum YDColors {
     public static var dark: UIColor { UIColor(r: 0, g: 106, b: 140) }
     
     public static var light: UIColor { UIColor(r: 36, g: 203, b: 255) }
-
-//    public static var night: UIColor { UIColor(r: 100, g: 210, b: 255) }
 
     public static var opaque: UIColor { UIColor(r: 225, g: 245, b: 254) }
   }
